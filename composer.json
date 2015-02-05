@@ -1,10 +1,10 @@
 {
     "name": "CCMLocatorBundle",
     "license": "proprietary",
-    "type": "project",
+    "type": "symfony-bundle",
     "description": "My beautiful bundle.",
     "autoload": {
-        "psr-0": { "": "src/", "SymfonyStandard": "app/" }
+        "psr-4": { "CCMLocatorBundle\\" : "" }
     },
     "require": {
         "php": ">=5.3.3"
